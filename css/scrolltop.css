@@ -1,0 +1,82 @@
+/* Animation */
+/*===Arrow Type 1===*/
+/*===Arrow Type 2===*/
+/*===List column items===*/
+.wrap-scroll-top {
+  margin: 20px auto; }
+  .wrap-scroll-top .header {
+    padding: 10px;
+    color: white;
+    background-color: green;
+    margin-bottom: 20px; }
+  .wrap-scroll-top .content p {
+    margin-bottom: 40px; }
+  .wrap-scroll-top .footer {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px; }
+    .wrap-scroll-top .footer .go-to-top {
+      position: fixed;
+      bottom: 30px;
+      right: 20px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -moz-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-justify-content: center;
+      -moz-justify-content: center;
+      -ms-justify-content: center;
+      justify-content: center;
+      -ms-flex-pack: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      -ms-align-items: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      background-color: green;
+      padding: 10px;
+      color: white; }
+      .wrap-scroll-top .footer .go-to-top span {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        -ms-justify-content: center;
+        justify-content: center;
+        -ms-flex-pack: center;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        align-items: center;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        position: relative; }
+        .wrap-scroll-top .footer .go-to-top span:after {
+          content: "";
+          width: 6px;
+          height: 6px;
+          border-right: 1px solid white;
+          border-bottom: 1px solid white;
+          -webkit-transform: rotate(-135deg);
+          -ms-transform: rotate(-135deg);
+          -o-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -moz-box;
+          display: -webkit-flex;
+          display: flex;
+          position: absolute;
+          top: -5px; }
+
+/*# sourceMappingURL=scrolltop.css.map */
